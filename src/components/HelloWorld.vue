@@ -1,0 +1,25 @@
+<template>
+  <div class="hello">
+    <h3>{{ msg }}</h3>
+    <div class="separator"/>
+  </div>
+</template>
+
+<script lang="ts">
+import Vue from 'vue';
+
+export default Vue.extend({
+  name: 'HelloWorld',
+  props: {
+    msg: String,
+  },
+});
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+  .hello {
+    color: #000;
+    padding: 0 40px;
+  }
+</style>
